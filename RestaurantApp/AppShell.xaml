@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="RestaurantApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pages="clr-namespace:RestaurantApp.Pages"
+    Shell.FlyoutBehavior="Disabled"
+    Title="RestaurantApp"
+    Shell.BackgroundColor="Aquamarine">
+    <ShellContent
+        Title="Login"
+        ContentTemplate="{DataTemplate pages:MainPage}"
+        Route="Login" />
+    <ShellContent
+        Title="Signup"
+        ContentTemplate="{DataTemplate pages:SignupPage}"
+        Route="Register" />
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate pages:HomePage}"
+        Route="Home" />
+    <ShellContent
+        Title="MenuItems"
+        ContentTemplate="{DataTemplate pages:AllMenuItemsPage}"
+        Route="AllMenuItems" />
+
+
+</Shell>
