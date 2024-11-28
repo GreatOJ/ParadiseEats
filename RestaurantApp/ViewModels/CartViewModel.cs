@@ -74,8 +74,8 @@ namespace RestaurantApp.ViewModels
             }
         }
 
-        private const string accountSid = "AC66f3d8a126b116e9cb63603728a88ba4";
-        private const string authToken = "7cf0aa9230b43881363a76ea3caae464";
+        private const string accountSid = "ACf77dfe6b627bf4b30e682264a9528696";
+        private const string authToken = "5ed9ce63ee893583f9670a5f2e540795";
 
         [RelayCommand]
         private async Task PlaceOrder()
