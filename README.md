@@ -51,8 +51,8 @@ This section will be filled in the future with instructions on how to run the ap
 
 ## Next Steps
 
-- Implement user login and signup functionality with proper data storage (e.g., database).
-- Develop screens for browsing the restaurant menu and adding items to a cart.
+- Implement user login and signup functionality with proper data storage 
+- Develop screens for browsing the restaurant menu and adding items to a cart [completed]
 - Implement a checkout process for payment (placeholder functionality for now).
 - Style the application with a restaurant theme.
 
